@@ -1,0 +1,133 @@
+/* 
+* Template Name: KINGFISHER
+* Author: kawcher habib(kh)
+* Author Gmail: kawcher578@gmail.com
+* Using : HTML And CSS
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Bodoni Moda', serif;
+}
+img{
+    width: 100%;
+    border-radius: 3px;
+    
+}
+.height{
+    height: 204px;
+}
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    background: white;
+}
+.header-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    text-align: center;
+    
+}
+.center-grid{
+    transition: 1s;
+}
+.center-grid:hover {
+    box-shadow: 4px 6px 20px 0px grey;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.center-grid h1{
+        font-size: 40px;
+        color: red;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-weight: 400;
+}
+.padding{
+    padding: 30px;
+    
+}
+.main-grid{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    box-shadow: 15px 10px 30px grey;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 9px;
+}
+.grid-1:hover,
+.grid-2:hover,
+.grid-3:hover,
+.grid-4:hover,
+.grid-5:hover,
+.grid-6:hover,
+.grid-7:hover,
+.grid-8:hover{
+    box-shadow: 5px 5px 20px gray;
+}
+.grid-1{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    transition: 1s;
+}
+.grid-2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    transition: 1s;
+   
+}
+.grid-3{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    transition: 1s;
+}
+
+.grid-4{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start:7 ;
+    grid-row-end: 8;
+    transition: 1s;
+}
+.grid-5{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start:4;
+    grid-row-end: 8;
+    transition: 1s;
+
+}
+.grid-6{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:8;
+    grid-row-end: 11;
+    transition: 1s;
+}
+.grid-7{
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start:8;
+    grid-row-end: 11;
+    transition: 1s;
+}
+.grid-8{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start:8;
+    grid-row-end: 11;
+    transition: 1s;
+}
